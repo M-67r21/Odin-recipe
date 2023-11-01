@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>   
+    <head>
+        <title>Clave Technologies</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Technology.css">
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <nav>
+                <label class="logo"><img src="Images/image.png" alt="" height="100px" width="400px"></label>
+                <!---->
+                <ul id="menuList">
+                    <li> <a href=""><i class="fa fa-fw fa-home"></i>Home </a></li>
+                    <li> <a href=""><i class="fa fa-fw fa-envelope"></i>Our Statement</a></li>
+                    <li> <a href=""><i class="fa fa-fw fa-services"></i>Services</a></li>
+                    <li> <a href=""><i class="fa fa-fw fa-envelope"></i>Contact Us</a></li>
+                    <li> <a href=""><i class="fa fa-fw fa-user-friends"></i>About us</a></li>
+                </u>
+            </nav>
+            <img src="Images/Menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <section>
+            <div class="Us">
+                
+                    <img src="Images/Tech.jpg" alt="" >
+            
+                <div class="Why Us Text">
+                    <p>We are driven by passion and well-equipped with innovative skills that will ensure you receive our best tailor-made services at all times.</p>
+
+                    <!--<h1>OUR STATEMENT</h1>
+                    <p>Clave Technologies was established in Kenya with the key motivation of providing ICT 
+                    solutions and connecting your business infrastructure to the world</p>-->
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="core">
+                <div class="row us">
+                    <div class="col values">
+                        <h2> <img src="Images/Values.png" alt="" height="80px" width="40px"> Our Values</h2>
+                        <p>Integrity</p>
+                        <p>Professionalism</p> 
+                        <p>Effectiveness</p>    
+                        <p>Customer Satisfaction</p></p>
+                    </div>
+                    <div class="col vision">
+                        <h2> <img src="Images/Vision.png" alt="" height="80px" width="40px"> Our Vision</h2>
+                        <p>To be a leader in provision of unique information technology solutions to individuals and corporate companies.</p>
+                    </div>
+                    <div class="col mission">
+                        <h2> <img src="Images/Mission.png" alt="" height="70px" width="40px"> Our Mission</h2>
+                        <p>To apply the appropriate technology in addressing the technical challenges facing the enterprise environment with the aim of providing optimum solution while influencing the shape of ICT service delivery</p><br>
+                    </div>
+                </div>
+            </div>
+        </section> <br><br>
+        <section>
+            <div class="Services">
+                <h1>OUR SERVICES</h1>
+                <div class="row one">
+                    <div class="col ICT">
+                        <h2> <img src="Images/consultation.png" alt="consultation" height="80px" width="50px"> ICT Consultancy Services</h2>
+                        <p>We provide ICT related consultancy services to companies individuals, Organizations, institutions and many more.</p>
+                    </div>
+                    <div class="col Hard">
+                        <h2> <img src="Images/Soft.png" alt="Soft" height="80px" width="50px"> Hardware, Software, Antivirus Supply and Installation</h2>
+                        <p>We supply hardware devices and Software to our clients. We ensure our clients receive their goods in good shape and of the best quality.</p>
+                    </div>
+                    <div class="col Comp">
+                        <h2> <img src="Images/repair.png" alt="repair" height="70px" width="50px"> Computer Repair and Maintenance</h2>
+                        <p>We offer computer and peripheral device Repair and maintenance. <br>
+                        <i>We also recover lost data and forgotten Password.</i> </p>
+                    </div>
+                </div>
+                <div class="row two">
+                    <div class="col Net">
+                        <h2> <img src="Images/Network.png" alt="Network" height="80px" width="50px"> Network Installation and management</h2>
+                        <p>We install Local Area Networks (LAN) as well as Wide Area Networks (WAN). <br>
+                        We also provide 24-hour network support services.</p>
+                    </div>
+                    <div class="col Soft">
+                        <h2> <img src="Images/app.png" alt="Web dev" height="80px" width="50px"> Software and Web Development</h2>
+                        <p>We Develop both stand alone and web based management systems and types of websites.</p>
+                    </div>
+                    <div class="col Training">
+                        <h2> <img src="Images/Training.png" alt="Training" height="80px" width="50px">Training</h2>
+                        <p>We Provide customized training on different software, hardware and other clients requests.</p>
+                    </div>
+                </div>
+                <div class="row three">
+                    <div class="col Data">
+                        <h2> <img src="Images/analytics.png" alt="Analytics" height="80px" width="50px"> Data Analytics and Reporting</h2>
+                        <p>We provide data analytics, visualization and reporting to help organizations to make insights and decisions. <br>
+                        We also collect data.</p>
+                    </div>
+                    <div class="col CCTV">
+                        <h2> <img src="Images/CCTV.jpg" alt="CCTV" height="70px" width="60px"> CCTV Installation</h2>
+                        <p>We install all types of CCTV in homes, offices, and business areas and offer support for the CCTVs</p>
+                    </div>
+                    <div class="col Bulk">
+                        <h2> <img src="Images/Bulk.png" alt="Bulk" height="70px" width="60px"> Bulk Messaging</h2>
+                        <p>We offer bulk messaging services and also develop bulky messaging systems for clients and organizations.</p>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <div class="Contact">
+            <a href="#" class="fa fa-phone"> +24714 975986</a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            
+        </div>
+            <script>
+                var menuList=document.getElementById("menuList");
+
+                    menuList.style.maxHeight="0px"
+
+                    function togglemenu() {
+
+                    if ( menuList.style.maxHeight=="0px")
+                    {
+                        menuList.style.maxHeight="130px"
+                    }
+                    else
+                    {
+                        menuList.style.maxHeight="0px"
+                     }
+    
+                    }
+
+            </script>
+
+    </body>
+</html>

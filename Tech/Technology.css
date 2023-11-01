@@ -1,0 +1,279 @@
+nav{
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    color: lightgreen;
+    
+   
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(199, 129, 44);
+    position: fixed;
+    top: 0;
+    
+   
+}
+label.logo{
+    
+}
+nav ul{
+    float: right;
+    margin-right:none;
+    color: aquamarine;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    position: relative;
+    margin-right: 50px;
+    height: 100px;
+    
+
+    
+}
+nav ul li a{
+    color: rgb(49, 55, 138);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 0px;
+    border-radius: 7px;
+    text-transform: none;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: rgb(156, 139, 139);
+    color: #225f34;
+}
+.menu-icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    display: block;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: px
+}
+div {
+    text-align:;
+    text-decoration: none;
+}
+.Us{
+  position: relative;
+  text-align: center;
+}
+.Why.Us{
+    margin-bottom: 30px;
+}
+.Us img{
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+}
+.Why.Us.Text{
+    color: rgb(53, 220, 20);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 40px;
+}
+.core{
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    background-image:url();
+}
+h1{
+    margin-left: 5%;
+}
+h2{
+    color: chocolate; 
+    font-size: 35px;
+}
+.row.us{
+    height: px;
+    background-image: ;
+    margin-top: 100px;
+}
+.row.us p{
+    font-size: 25px;
+    
+}
+.row.us p:hover{
+  color: rgb(252, 249, 248);
+
+  
+  color: ;
+}
+.col {
+    margin-left: 5%;
+    margin-top:;
+}
+.col.values{
+    width: 30%;   
+}
+.col.values:hover{
+    background-image: url("Images/Ltd.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+
+}
+.col.vision{
+    width: 40%;
+   
+}
+.col.vision:hover{
+     background-image: url("Images/Clave.jpg");
+      background-repeat: no-repeat;
+      border-radius: 10px;
+}
+.col.mission{
+    width: 40%;
+}
+.col.mission:hover{
+    background-image: url("Images/Us.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+  .Contact{
+    height: 40px;
+    background-color: burlywood;
+    text-align: center;
+    margin-top: %;
+    margin-right: none;
+  }
+  .Contact a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #FF0000;
+    
+    font-size: 30px;
+  }
+  .logo{
+    width: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .Services{
+    
+    
+  }
+  .Services h1{
+    font-size: 40px;
+    color: rgb(95, 88, 83);
+    font-family: 
+    
+  }
+  .row.one{
+    background-color:;
+    height: 400px;
+    
+  }
+  .row.one p{
+    font-size: 25px;
+  }
+  .row.two p{
+    font-size: 25px;
+  }
+  .row.three p{
+      font-size: 25px;
+  }
+  .col.ICT {
+    width: 40%;
+    
+  }
+ 
+  .col.Hard{
+    width: 40%;
+    
+  }
+  .col.Comp{
+    width: 30%;
+   
+  }
+  .col.Net{
+    width: 40%;
+   
+  }
+  .col.Soft{
+    width: 40%;
+   
+  }
+  .col.Training{
+    width: 30%;
+    
+  }
+  .col.Data{
+    width: 40%;
+    
+  }
+  .col.CCTV{
+    width: 40%;
+    
+  }
+  .col.Bulk{
+    width: 30%;
+    
+  }
+  .menu-icon{
+    display: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 800px) {
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#21221c, #1f789b);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    nav ul li a{
+        color: rgb(61, 20, 128);
+        text-align: left;
+        float: none;
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        right: 0;
+        top: 0;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 1s;
+    }
+    .row{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    col{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        flex-basis: 100%;
+    }h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+      font-size: 15px;
+    }
+    .row.us p:hover{
+      height: 600px;
+    }
+  }
